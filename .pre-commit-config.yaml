@@ -1,0 +1,8 @@
+repos:
+- repo: local
+  hooks:
+  - id: render_writeups
+    name: Check that writeups are rendered
+    entry: python3 src/python/generate_writeups.py --check
+    language: python
+    files: ^(writeups|src/data|src/python/generate_writeups.py)/.*$
