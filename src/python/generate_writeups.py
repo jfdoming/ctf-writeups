@@ -5,7 +5,7 @@ from argparse import ArgumentParser
 from dataclasses import dataclass
 from urllib.parse import quote as url_escape
 
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 
 
 TEMPLATE_FILE_NAME = "writeup.tmpl.md"
@@ -37,6 +37,19 @@ class SpecRenderer:
                 return f.read()
         return entry
 
+    def __format_attachments(
+        self, name: str, attachments: List[str]
+    ) -> List[Tuple[str, str]]:
+        return list(
+            map(
+                lambda attachment: (
+                    attachment,
+                    os.path.join("attachments", url_escape(name), attachment),
+                ),
+                attachments,
+            )
+        )
+
     def __init__(self, data_dir):
         self.template = self.__read_spec_template(data_dir)
 
@@ -49,21 +62,33 @@ class SpecRenderer:
             "attachments": self.__call_if_present(
                 lambda attachments: "\n\n"
                 + ", ".join(
-                    map(
-                        lambda attachment: f"[{attachment}]({os.path.join('attachments', url_escape(spec['name']), attachment)})",
-                        attachments,
+                    f"[{attachment}]({path})"
+                    for attachment, path in self.__format_attachments(
+                        spec["name"], attachments
                     )
                 ),
                 spec.get("attachments"),
-            ).strip(),
-            "solution": self.__read_if_file(cwd, spec["solution"]).strip(),
+            ).rstrip(),
+            "solution": self.__read_if_file(cwd, spec["solution"])
+            .format(
+                attachments={
+                    attachment: path
+                    for attachment, path in self.__format_attachments(
+                        spec["name"],
+                        spec.get("attachments", [])
+                        + spec.get("unlistedAttachments", []),
+                    )
+                },
+            )
+            .strip(),
             "flag": spec["flag"],
         }
         return SpecOutput(
             writeup_name=spec["name"],
             file_name=OUTPUT_FILE_NAME_FORMAT.format(title=spec["name"]),
             file_contents=self.template.format(**format_args),
-            attachments=spec.get("attachments", []),
+            attachments=spec.get("attachments", [])
+            + spec.get("unlistedAttachments", []),
         )
 
 
