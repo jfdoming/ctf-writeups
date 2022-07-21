@@ -5,7 +5,7 @@
 ## Question
 
 {author}
-{question}
+{question}{attachments}
 
 ## Solution
 
