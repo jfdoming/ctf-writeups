@@ -1,0 +1,8 @@
+{
+    "name": "Google Form",
+    "points": 32,
+    "author": "Raymo",
+    "question": "https://docs.google.com/forms/d/e/1FAIpQLSdlb7j_VOYFyUqv683XsVW5_QAEHw-_MtyjPNIx9C5SUBI22Q/viewform",
+    "solution": "solution.fragment.md",
+    "flag": "uwctf{c1i3nt_51d3_v41id4ti0n_a9d807f09b82c404}"
+}

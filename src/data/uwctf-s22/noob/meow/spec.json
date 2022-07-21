@@ -1,0 +1,8 @@
+{
+    "name": "Meow",
+    "points": 24,
+    "author": "Raymo",
+    "question": "Please talk to `ctf.csclub.uwaterloo.ca` on the alternative port for HTTP, it will meow you your flag.",
+    "solution": "solution.fragment.md",
+    "flag": "uwctf{netcat_bcf2e43f3c9e97e9}"
+}

@@ -1,0 +1,3 @@
+Charlie the C programmer forgot his password that will make the program print his flag! He also accidentally deleted his original source file, and may have made a mistake writing it in the first place...
+
+Bonus chall: figure out what the mistake Charlie made was :)

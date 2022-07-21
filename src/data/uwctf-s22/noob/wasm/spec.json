@@ -1,0 +1,8 @@
+{
+    "name": "WASM",
+    "points": 36,
+    "author": "Rahul",
+    "question": "https://ctf.csclub.uwaterloo.ca/ctf-uploads/noob/wasm/chall.html",
+    "solution": "solution.fragment.md",
+    "flag": "uwctf{W45M_4772a105377592cd}"
+}

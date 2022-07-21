@@ -1,0 +1,9 @@
+{
+    "name": "Passwords",
+    "points": 49,
+    "author": "Raymo",
+    "question": "question.fragment.md",
+    "attachments": ["a.out"],
+    "solution": "solution.fragment.md",
+    "flag": "uwctf{xkcdgoodpasswd_4676d47590b4876e}"
+}

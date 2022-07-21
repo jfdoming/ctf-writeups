@@ -1,0 +1,10 @@
+{
+    "name": "Audio",
+    "points": 36,
+    "author": "Rahul",
+    "question": "_Ooooooh spoooooopy!_",
+    "attachments": ["whoops.mp3"],
+    "unlistedAttachments": ["whoops_slow.mp3"],
+    "solution": "solution.fragment.md",
+    "flag": "uwctf{4ud10f1l3_dacb9b194dd9cec7}"
+}
