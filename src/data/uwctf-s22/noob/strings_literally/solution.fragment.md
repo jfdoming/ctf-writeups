@@ -1,0 +1,3 @@
+The challenge title hints at opening the attachment in a text editor; doing so and searching for `uwctf` reveals the flag.
+
+Fun fact: Apparently, the intended solution used the `strings` utility on Linux to get the flag directly. Who would have thought, considering the title of the challenge...

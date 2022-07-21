@@ -1,8 +1,8 @@
 {
     "name": "Helikopter",
     "points": 24,
-    "author": "Rahul",
+    "author": "Raymo",
     "question": "Helikopter Helikopter! Or is it a mirror? What does `g?` do, In vim when given these characters? `hjpgs{ebg13_n6q5ro2}`",
-    "solution": "Pasting the characters into Vim and typing `g?` twice gives the flag.",
+    "solution": "Pasting the characters into Vim and typing `g?` twice (which applies ROT13) gives the flag.",
     "flag": "uwctf{rot13_a6d5eb2}"
 }

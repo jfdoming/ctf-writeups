@@ -4,6 +4,6 @@
     "author": "Raymo",
     "question": "Uh oh! GIMP corrupted my file while I was making a steg chall, can you still find the flag?",
     "attachments": ["steg.xcf"],
-    "solution": "The challenge title hints at opening the attachment in a text editor; doing so and searching for `uwctf` reveals the flag.",
+    "solution": "solution.fragment.md",
     "flag": "uwctf{h1dd3n5t3g_54c10511eda3e8f9}"
 }
