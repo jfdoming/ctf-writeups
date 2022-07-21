@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The name of the challenge"
+        },
+        "points": {
+            "type": "integer",
+            "description": "The number of points earned from the challenge"
+        },
+        "author": {
+            "type": "string",
+            "description": "The author of the challenge"
+        },
+        "question": {
+            "type": "string",
+            "description": "The question/hint provided with the challenge",
+            "examples": ["question.fragment.md"]
+        },
+        "attachments": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "description": "Any attachments provided with the challenge"
+        },
+        "unlistedAttachments": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "description": "Any attachments provided with the challenge which will not be listed at the top"
+        },
+        "solution": {
+            "type": "string",
+            "description": "The solution found for the challenge",
+            "examples": ["solution.fragment.md"]
+        },
+        "flag": {
+            "type": "string",
+            "description": "The flag for the challenge"
+        }
+    },
+    "required": ["name", "points", "author", "question", "solution", "flag"],
+    "additionalProperties": false
+}
