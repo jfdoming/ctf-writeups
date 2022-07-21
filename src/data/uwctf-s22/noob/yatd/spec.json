@@ -1,0 +1,8 @@
+{
+    "name": "YATD",
+    "points": 48,
+    "author": "Raymo",
+    "question": "question.fragment.md",
+    "solution": "solution.fragment.md",
+    "flag": "uwctf{rot47_acb9379bf086bd74}"
+}

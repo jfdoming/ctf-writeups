@@ -1,0 +1,9 @@
+{
+    "name": "Pwn0",
+    "points": 44,
+    "author": "Jazzy",
+    "question": "`nc uwctf.ml 6001`",
+    "attachments": ["chall0.c"],
+    "solution": "solution.fragment.md",
+    "flag": "uwctf{buff3r0v3rf10w0_3f8361abc77504c5}"
+}

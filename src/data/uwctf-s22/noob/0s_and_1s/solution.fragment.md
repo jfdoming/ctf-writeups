@@ -1,0 +1,1 @@
+At first glance, this looks like some sort of binary encoding. A good guess might be [ASCII](https://www.rapidtables.com/code/text/ascii-table.html) (since the flag is text), and indeed, the text decodes to a flag.

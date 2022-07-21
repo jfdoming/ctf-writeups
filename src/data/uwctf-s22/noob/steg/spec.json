@@ -1,0 +1,9 @@
+{
+    "name": "steg",
+    "points": 48,
+    "author": "Raymo",
+    "question": "Yes, it's been there on the homepage all this time. https://ctf.uwaterloo.ca/",
+    "unlistedAttachments": ["background_nochall.png"],
+    "solution": "solution.fragment.md",
+    "flag": "uwctf{stegfrthistime_9b0a89e16a81af67}"
+}

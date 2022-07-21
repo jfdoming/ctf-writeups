@@ -1,0 +1,1 @@
+In line with the previous cipher challenge, we might think to try a ROT cipher. However, this ciphertext contains symbols, so that indicates the previous ROT13 will not work. Trying ROT47 (for printable ASCII characters) on the first five characters gives `uwctf`, providing an indication that this cipher will give the flag.

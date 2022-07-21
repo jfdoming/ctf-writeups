@@ -1,0 +1,7 @@
+{
+    "python.formatting.provider": "black",
+    "json.schemas": [{
+        "fileMatch": ["*/spec.json"],
+        "url": "/.vscode/spec.schema.json"
+    }]
+}

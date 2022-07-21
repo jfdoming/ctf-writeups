@@ -1,0 +1,8 @@
+{
+    "name": "Vitalik",
+    "points": 49,
+    "author": "Rahul",
+    "question": "Vitalik's creation uses a hashing function. Find our path to the mapping for nothing.",
+    "solution": "solution.fragment.md",
+    "flag": "uwctf{6c48c02b6682151e}"
+}

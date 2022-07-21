@@ -1,0 +1,1 @@
+`5KmhUal` looks like a unique ID for an image, and the note about `/a/` hints that this ID will be used in a URL. One popular image hosting platform which uses URLs with IDs in them is Imgur, and indeed, https://imgur.com/5KmhUal is an image of what looks like a flag.
