@@ -4,7 +4,7 @@
 
 ## Question
 
-> Raymo
+> Author: Raymo
 
 Please talk to `ctf.csclub.uwaterloo.ca` on the alternative port for HTTP, it will meow you your flag.
 

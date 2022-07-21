@@ -56,7 +56,7 @@ class SpecRenderer:
     def render(self, cwd: str, ctf_path: str, spec: Dict[str, str]) -> SpecOutput:
         format_args = {
             "title": os.path.join(ctf_path, spec["name"]),
-            "author": self.__call_if_present(str.format, spec.get("author"), "> {}\n"),
+            "author": self.__call_if_present(str.format, spec.get("author"), "> Author: {}\n"),
             "points": spec["points"],
             "question": self.__read_if_file(cwd, spec["question"]).strip(),
             "attachments": self.__call_if_present(

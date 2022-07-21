@@ -4,7 +4,7 @@
 
 ## Question
 
-> Jazzy
+> Author: Jazzy
 
 `nc uwctf.ml 6001`
 

@@ -4,7 +4,7 @@
 
 ## Question
 
-> Rahul
+> Author: Rahul
 
 Vitalik's creation uses a hashing function. Find our path to the mapping for nothing.
 

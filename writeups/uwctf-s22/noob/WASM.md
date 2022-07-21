@@ -4,7 +4,7 @@
 
 ## Question
 
-> Rahul
+> Author: Rahul
 
 https://ctf.csclub.uwaterloo.ca/ctf-uploads/noob/wasm/chall.html
 

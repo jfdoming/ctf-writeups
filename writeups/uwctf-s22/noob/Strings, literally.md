@@ -4,7 +4,7 @@
 
 ## Question
 
-> Raymo
+> Author: Raymo
 
 Uh oh! GIMP corrupted my file while I was making a steg chall, can you still find the flag?
 

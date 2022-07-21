@@ -4,7 +4,7 @@
 
 ## Question
 
-> Raymo
+> Author: Raymo
 
 Yes, it's been there on the homepage all this time. https://ctf.uwaterloo.ca/
 

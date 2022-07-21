@@ -4,7 +4,7 @@
 
 ## Question
 
-> Rahul
+> Author: Rahul
 
 Popular image hosting platform + `5KmhUal` (don't use `/a/`)
 
